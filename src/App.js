@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div>
         <Layout>
-        <BurgerBuilder />
+          <BurgerBuilder />
         </Layout>
       </div>
 
@@ -18,3 +18,23 @@ class App extends Component {
 }
 
 export default App;
+
+
+// state ={
+//   show:true
+// };
+// componentDidMount(){
+//   setTimeout(()=>{
+//     this.setState({show:false});
+//   },5000);
+// }
+// render() {
+//   return (
+//     <div>
+//       <Layout>
+//       {this.state.show ? <BurgerBuilder />:null}
+//       </Layout>
+//     </div>
+
+//   );
+// }
